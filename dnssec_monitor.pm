@@ -117,7 +117,7 @@ sub report {
     my $self   = shift;
     my $result = shift;
 
-    if ($self->{error}) {ED448
+    if ($self->{error}) {
         print $self->{error}, "\n" unless ($self->{quiet});
     }
 
